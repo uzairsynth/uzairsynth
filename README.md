@@ -2,24 +2,25 @@
 
 **Mechatronics · Embedded Systems · Edge AI**
 
-I build smart machines end-to-end: mechanical design, electronics, embedded firmware and on-device AI, held together with real software discipline (tests, CI and documentation). My shipped work so far is in Python; now I'm taking it down to the microcontroller.
+I build smart machines end-to-end: mechanical design, electronics, embedded firmware and on-device AI, held together with real software discipline (tests, CI and documentation). My shipped work so far is in Python; now I'm taking it down to the microcontroller and documenting each step in the open.
 
 ### Now
 
-- **Building:** a vibration-based machine-health monitor. An ESP32 and accelerometer sit on a motor and run on-device anomaly detection, with a Python dashboard, a KiCad schematic and a parametric enclosure. *(in progress)*
-- **Learning:** embedded C/C++ on ESP32 · FreeRTOS · electronics and KiCad · signal processing · TinyML
-- **Open to:** embedded / firmware, robotics software, edge-AI and IoT roles
+- **Building:** a vibration-based machine-health monitor. An ESP32 and MEMS accelerometer on a small motor compute FFT features and run an anomaly-detection model on-device, with telemetry to a Python dashboard. *In progress, starting in the Wokwi simulator with public vibration datasets.*
+- **Learning:** embedded C/C++ (ESP32, FreeRTOS) · electronics and KiCad · signal processing · TinyML
+- **Open to:** embedded / firmware, robotics software, edge-AI / IoT and mechatronics roles, plus Python / automation work
+- **Based in:** Pakistan (PKT, UTC+5)
 
 ### Featured projects
 
 | Project | What it does | Stack |
 |---|---|---|
-| [engineering-lead-hunter](https://github.com/uzairsynth/engineering-lead-hunter) | Finds robotics, CAD and mechanical-engineering contract leads through web search, then scores and enriches them | Python · Streamlit · pandas · BeautifulSoup |
-| [smart-movie-picker](https://github.com/uzairsynth/smart-movie-picker) | Desktop app that recommends movies and series from genre, mood and free-text requests, with explainable scores | Python · Tkinter |
-| [task-manager-learning-log](https://github.com/uzairsynth/task-manager-learning-log) | A task manager built step by step, from dicts and functions to classes, JSON, SQLite and a Tkinter GUI | Python · SQLite · Tkinter |
-| Machine-health monitor | Detects motor faults from vibration on a microcontroller | C/C++ · ESP32 · Python · TinyML · *in progress* |
+| **Machine-health monitor** · *in progress* | Goal: detect motor or fan unbalance and other vibration anomalies on a low-cost microcontroller, with a KiCad shield and a parametric enclosure | C/C++ · ESP32 · FreeRTOS · Python · TinyML · KiCad |
+| [engineering-lead-hunter](https://github.com/uzairsynth/engineering-lead-hunter) | Turns 20 engineering service categories into up to 50 targeted web searches per run, scores each result 0–100 for hiring and contract intent, and exports ranked leads to CSV | Python · Streamlit · pandas · Requests · Beautiful Soup |
+| [smart-movie-picker](https://github.com/uzairsynth/smart-movie-picker) | Offline desktop recommender that ranks a 53-title catalogue by type, language, genre, mood and a plain-English request, and explains every pick *(learning project)* | Python · Tkinter |
+| [task-manager-learning-log](https://github.com/uzairsynth/task-manager-learning-log) | One task-manager problem built up step by step: dicts, functions, classes, JSON, SQLite and a Tkinter GUI *(learning log)* | Python · SQLite · Tkinter |
 
-<!-- Link the machine-health monitor once its repository exists. -->
+<!-- When the flagship repo exists, link "Machine-health monitor" above to it and pin it first on your profile. -->
 
 ### Tech
 
@@ -36,7 +37,7 @@ I build smart machines end-to-end: mechanical design, electronics, embedded firm
 
 ### Open source
 
-My first contributions are in progress, focused on embedded, edge-AI and CAD tooling. Merged pull requests will be listed here.
+My first upstream contributions are in progress, focused on embedded, edge-AI and CAD tooling. Merged pull requests will be listed here.
 
 ### Contact
 
